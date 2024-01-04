@@ -124,86 +124,13 @@ for bar in ax.containers:
 
 
 # In[304]:
-
+#visualization of the marital status vs amount
 
 sales_state=df[["Amount"]].groupby(df["Marital_Status"]).sum().sort_values(by=["Amount"],ascending=False)
 sns.set(rc={"figure.figsize":(10,7)})
 sns.barplot(x=sales_state.index,y=sales_state["Amount"])
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
